@@ -5,6 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
+nltk.download('punkt')
 
 def transform_text(text):
     # convert all characters to lowercase
